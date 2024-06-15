@@ -40,7 +40,7 @@ export default function Banner() {
         {slideImages.map((image, index) => (
           <div key={index}>
             <div
-              className="w-full h-[860px] sm:h-[635px] md:h-[650px] lg:h-[727px] flex items-center justify-center bg-cover bg-center"
+              className="w-full h-[860px] sm:h-[635px] md:h-[1109px] lg:h-[727px] flex items-center justify-center bg-cover bg-center"
               style={{ backgroundImage: `url(${image.url})` }}
             >
               {/* <span style={spanStyle}>{image.caption}</span> */}
